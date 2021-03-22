@@ -1,0 +1,69 @@
+
+#Talking Part 1
+name = input("What is your name? It's ok to use your real name. There is only a 79.4% chance that China is stealing your data right now.")
+
+#Talking Part 2
+feeling = input("Hello " + name + ", how are you today?")
+
+#Talking Part 3
+pet = input("What is your favorite pet's name?")
+print("Let me just emphasize how much " + pet + " loves cheese. And if I'm being honest, I think that " + pet + " would choose cheese over you!")
+
+#Talking Part 4
+butcher = input("What is the name of your 5th Grade teacher?")
+print("It turns out that " + butcher + " is actually a butcher!")
+print("Ever notice that " + pet + " has been missing for the last 24 hours?")
+print("That's because " + butcher + " killed " + pet + " last night while you were asleep!")
+
+#Talking Part 5 (end)
+print("This is the story of " + name + "'s Missing Pet")
+
+#TURTLE
+import turtle
+Speedy = turtle.Turtle()
+Speedy.shape('turtle')
+
+#Speedy Loading
+Speedy.write("    Loading...")
+Speedy.left(3600)
+
+
+#Speedy Turtle Part 1
+Speedy.color("red")
+Speedy.goto(90, 90)
+Speedy.left(180)
+Speedy.forward(100)
+Speedy.right(90)
+Speedy.forward(50)
+Speedy.write(" Hi! I'm your 5th Grade teacher " + butcher + ".")
+Speedy.left(1440)
+
+#Speedy Turtle Part 2
+Speedy.color("blue")
+Speedy.left(135)
+Speedy.forward(230)
+Speedy.left(135)
+Speedy.forward(200)
+Speedy.right(90)
+Speedy.forward(80)
+Speedy.write(" But I'm also secretly a butcher!")
+Speedy.right(1440)
+
+#Speedy Turtle Part 3
+Speedy.color("lime green")
+Speedy.right(45)
+Speedy.forward(80)
+Speedy.right(45)
+Speedy.forward(100)
+Speedy.right(45)
+Speedy.forward(80)
+Speedy.right(45)
+Speedy.forward(50)
+Speedy.right(90)
+Speedy.forward(25)
+Speedy.write("    And I'm the one who killed " + pet + ".")
+
+import turtle
+screen = turtle.Screen()
+# set the screen background
+screen.bgpic("88a72645c7db61cc365ba80e5568b62f.jpg")
